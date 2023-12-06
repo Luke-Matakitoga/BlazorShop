@@ -15,7 +15,7 @@ jobs:
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: 7.0
+          dotnet-version: '7.0'
           dotnet-quality: # optional
           global-json-file: # optional
           source-url: # optional
